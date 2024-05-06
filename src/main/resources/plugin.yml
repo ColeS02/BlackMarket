@@ -1,0 +1,10 @@
+name: BlackMarket
+version: '${project.version}'
+main: com.unclecole.blackmarket.BlackMarket
+api-version: 1.17
+prefix: BlackMarket
+authors: [ Cole ]
+softdepend: [Vault, PlaceholderAPI]
+commands:
+  blackmarket:
+    aliases: [darkauction]

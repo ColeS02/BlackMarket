@@ -1,0 +1,437 @@
+update-interval: 01:00:00
+
+sign-amounts: true
+item-commands: true
+
+SellWand:
+  Material: STICK
+  Name: "&aSTICK"
+  Lore:
+    - "%uses%"
+    - "&4&l%multiplier%"
+
+items:
+  "1":
+    material: DIAMOND
+    model-data: 15
+    global-chance: 0.2
+    lore: ["&7Rarity: &3Common"]
+    categories:
+      sell:
+        price: 50
+      buy:
+        price: 120
+  "2":
+    material: EMERALD
+    model-data: 15
+    global-chance: 0.3
+    lore: ["&7Rarity: &3Common"]
+    categories:
+      sell:
+        price: 30
+      buy:
+        price: 100
+  "3":
+    material: GOLD_INGOT
+    name: "&6Golden Stallion"
+    model-data: 15
+    global-chance: 0.4
+    lore:
+      [
+        "&7Fight your way into &ebattle",
+        "&cslaughtering &7all before you,",
+        "&7swimming in their &4blood&7!",
+      ]
+    categories:
+      sell:
+        price: 20
+      buy:
+        price: 80
+  "4":
+    material: IRON_INGOT
+    model-data: 15
+    global-chance: 0.3
+    lore: ["&7Rarity: &3Common"]
+    categories:
+      sell:
+        price: 15
+      buy:
+        price: 40
+  "5":
+    material: COAL
+    model-data: 15
+    global-chance: 0.25
+    lore: ["&7Rarity: &3Common"]
+    categories:
+      sell:
+        price: 5
+      buy:
+        price: 10
+  "6":
+    material: REDSTONE
+    model-data: 15
+    global-chance: 0.3
+    lore: ["&7Rarity: &3Common"]
+    categories:
+      sell:
+        price: 10
+      buy:
+        price: 20
+  "7":
+    material: LAPIS_LAZULI
+    model-data: 15
+    global-chance: 0.4
+    lore: ["&7Rarity: &3Common"]
+    categories:
+      sell:
+        price: 10
+      buy:
+        price: 20
+  "8":
+    material: SPAWNER
+    name: "&fPig Spawner"
+    model-data: 15
+    global-chance: 0.2
+    categories:
+      sell:
+        chance: 0.2
+        price: 9
+      buy:
+        chance: 0.2
+        price: 80000
+        give-item: false
+        command: "mineablespawner give %player% pig 1"
+  "9":
+    material: SPAWNER
+    name: "&fCow Spawner"
+    model-data: 15
+    global-chance: 0.1
+    categories:
+      sell:
+        chance: 0.1
+        price: 9
+      buy:
+        chance: 0.1
+        price: 100000
+        give-item: false
+        command: "mineablespawner give %player% cow 1"
+  "10":
+    material: NETHER_QUARTZ_ORE
+    model-data: 15
+    global-chance: 0.5
+    lore: ["&7Rarity: &3Common"]
+    categories:
+      sell:
+        price: 50
+      buy:
+        price: 100
+  "11":
+    material: ENDER_PEARL
+    model-data: 15
+    global-chance: 0.3
+    lore: ["&7Rarity: &3Common"]
+    categories:
+      sell:
+        price: 100
+      buy:
+        price: 500
+  "12":
+    material: TRIDENT
+    model-data: 15
+    global-chance: 0.1
+    lore: ["&7Rarity: &eRare"]
+    categories:
+      sell:
+        price: 5000
+      buy:
+        price: 10000
+  "13":
+    material: SUGAR_CANE
+    model-data: 15
+    global-chance: 0.2
+    lore: ["&7Rarity: &3Common"]
+    categories:
+      sell:
+        price: 30
+      buy:
+        price: 125
+  "14":
+    material: ENCHANTED_GOLDEN_APPLE
+    model-data: 15
+    global-chance: 0.02
+    lore: ["&7Rarity: &6Legendary"]
+    categories:
+      sell:
+        price: 3000
+      buy:
+        price: 15000
+  "15":
+    material: GOLDEN_CARROT
+    model-data: 15
+    global-chance: 0.06
+    lore: ["&7Rarity: &6Legendary"]
+    categories:
+      sell:
+        price: 1500
+      buy:
+        price: 8000
+  "16":
+    material: CRYING_OBSIDIAN
+    model-data: 15
+    global-chance: 0.08
+    lore: ["&7Rarity: &eRare"]
+    categories:
+      sell:
+        price: 500
+      buy:
+        price: 5000
+  "17":
+    material: BAMBOO
+    model-data: 15
+    global-chance: 0.4
+    lore: ["&7Rarity: &3Common"]
+    categories:
+      sell:
+        price: 25
+      buy:
+        price: 100
+  "18":
+    material: CACTUS
+    model-data: 15
+    global-chance: 0.4
+    lore: ["&7Rarity: &3Common"]
+    categories:
+      sell:
+        price: 50
+      buy:
+        price: 150
+  "19":
+    material: GLOW_BERRIES
+    model-data: 15
+    global-chance: 0.2
+    lore: ["&7Rarity: &3Common"]
+    categories:
+      sell:
+        price: 130
+      buy:
+        price: 400
+  "20":
+    material: SLIME_BALL
+    model-data: 15
+    global-chance: 0.09
+    lore: ["&7Rarity: &eRare"]
+    categories:
+      sell:
+        price: 100
+      buy:
+        price: 500
+  "21":
+    material: GLOW_BERRIES
+    model-data: 15
+    global-chance: 0.1
+    lore: ["&7Rarity: &3Common"]
+    categories:
+      sell:
+        price: 150
+      buy:
+        price: 400
+  "22":
+    material: PRISMARINE_SHARD
+    model-data: 15
+    global-chance: 0.08
+    lore: ["&7Rarity: &eRare"]
+    categories:
+      sell:
+        price: 60
+      buy:
+        price: 250
+  "23":
+    material: BLAZE_ROD
+    model-data: 15
+    global-chance: 0.09
+    lore: ["&7Rarity: &eRare"]
+    categories:
+      sell:
+        price: 90
+      buy:
+        price: 400
+  "24":
+    material: GLOW_INK_SAC
+    model-data: 15
+    global-chance: 0.1
+    lore: ["&7Rarity: &eRare"]
+    categories:
+      sell:
+        price: 90
+      buy:
+        price: 300
+  "25":
+    material: NAUTILUS_SHELL
+    model-data: 15
+    global-chance: 0.06
+    lore: ["&7Rarity: &eRare"]
+    categories:
+      sell:
+        price: 120
+      buy:
+        price: 600
+  "26":
+    material: AMETHYST_SHARD
+    model-data: 15
+    global-chance: 0.09
+    lore: ["&7Rarity: &eRare"]
+    categories:
+      sell:
+        price: 80
+      buy:
+        price: 350
+  "27":
+    material: NETHER_WART
+    model-data: 15
+    global-chance: 0.1
+    lore: ["&7Rarity: &3Common"]
+    categories:
+      sell:
+        price: 50
+      buy:
+        price: 280
+  "28":
+    material: SKULL_BANNER_PATTERN
+    model-data: 15
+    global-chance: 0.03
+    lore: ["&7Rarity: &6Legendary"]
+    categories:
+      sell:
+        price: 1000
+      buy:
+        price: 9000
+  "29":
+    material: TOTEM_OF_UNDYING
+    model-data: 15
+    global-chance: 0.009
+    lore: ["&7Rarity: &6Legendary"]
+    categories:
+      sell:
+        price: 9000
+      buy:
+        price: 50000
+  "30":
+    material: GOLDEN_APPLE
+    model-data: 15
+    global-chance: 0.06
+    lore: ["&7Rarity: &eRare"]
+    categories:
+      sell:
+        price: 1200
+      buy:
+        price: 7000
+  "31":
+    material: CANDLE
+    model-data: 15
+    global-chance: 0.09
+    lore: ["&7Rarity: &eRare"]
+    categories:
+      sell:
+        price: 69
+      buy:
+        price: 420
+  "32":
+    material: CANDLE
+    model-data: 15
+    global-chance: 0.09
+    lore: ["&7Rarity: &eRare"]
+    categories:
+      sell:
+        price: 69
+      buy:
+        price: 420
+  "33":
+    material: NAME_TAG
+    model-data: 15
+    global-chance: 0.07
+    lore: ["&7Rarity: &6Legendary"]
+    categories:
+      sell:
+        price: 1500
+      buy:
+        price: 6000
+  "34":
+    material: EXPERIENCE_BOTTLE
+    model-data: 15
+    global-chance: 0.04
+    lore: ["&7Rarity: &6Legendary"]
+    categories:
+      sell:
+        price: 800
+      buy:
+        price: 3500
+  "35":
+    material: SADDLE
+    model-data: 15
+    global-chance: 0.08
+    lore: ["&7Rarity: &eRare"]
+    categories:
+      sell:
+        price: 1000
+      buy:
+        price: 4500
+  "36":
+    material: OCHRE_FROGLIGHT
+    model-data: 15
+    global-chance: 0.2
+    lore: ["&7Rarity: &3Common"]
+    categories:
+      sell:
+        price: 80
+      buy:
+        price: 400
+  "37":
+    material: VERDANT_FROGLIGHT
+    model-data: 15
+    global-chance: 0.2
+    lore: ["&7Rarity: &3Common"]
+    categories:
+      sell:
+        price: 80
+      buy:
+        price: 400
+  "38":
+    material: PEARLESCENT_FROGLIGHT
+    model-data: 15
+    global-chance: 0.2
+    lore: ["&7Rarity: &3Common"]
+    categories:
+      sell:
+        price: 80
+      buy:
+        price: 400
+  "39":
+    material: SWEET_BERRIES
+    model-data: 15
+    global-chance: 0.1
+    lore: ["&7Rarity: &3Common"]
+    categories:
+      sell:
+        price: 20
+      buy:
+        price: 200
+  "40":
+    material: BONE
+    model-data: 15
+    global-chance: 0.4
+    lore: ["&7Rarity: &3Common"]
+    categories:
+      sell:
+        price: 50
+      buy:
+        price: 300
+  "41":
+    material: LEATHER
+    model-data: 15
+    global-chance: 0.4
+    lore: ["&7Rarity: &3Common"]
+    categories:
+      sell:
+        price: 40
+      buy:
+        price: 200
